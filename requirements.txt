@@ -1,0 +1,5 @@
+streamlit>=1.32.0
+youtube-transcript-api>=0.4.5
+transformers>=4.39.0
+torch>=2.2.0
+sentencepiece  # Required for some transformer models like BART or T5
