@@ -4,7 +4,7 @@ from transformers import pipeline
 import re
 
 # Load summarization pipeline
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)
 
 # Helper to extract video ID
 def extract_video_id(url):
